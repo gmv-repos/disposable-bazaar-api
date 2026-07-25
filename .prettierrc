@@ -1,0 +1,35 @@
+{
+    "plugins": ["@prettier/plugin-php"],
+    "overrides": [
+        {
+            "files": "*.php",
+            "options": {
+                "parser": "php",
+                "tabWidth": 4,
+                "useTabs": false,
+                "printWidth": 120,
+                "singleQuote": true,
+                "trailingComma": "none",
+                "bracketSpacing": true,
+                "arrowParens": "avoid",
+                "endOfLine": "lf",
+                "phpVersion": "8.1"
+            }
+        },
+        {
+            "files": "*.blade.php",
+            "options": {
+                "parser": "php",
+                "tabWidth": 4,
+                "useTabs": false,
+                "printWidth": 120,
+                "singleQuote": true,
+                "trailingComma": "none",
+                "bracketSpacing": true,
+                "arrowParens": "avoid",
+                "endOfLine": "lf",
+                "phpVersion": "8.1"
+            }
+        }
+    ]
+}

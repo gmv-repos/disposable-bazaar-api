@@ -1,0 +1,37 @@
+{
+  "node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es-BfLgck0s.js",
+    "name": "index.es",
+    "src": "node_modules/canvg/lib/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/React/App.jsx"
+    ]
+  },
+  "node_modules/jspdf/node_modules/dompurify/dist/purify.es.js": {
+    "file": "assets/purify.es-C_uT9hQ1.js",
+    "name": "purify.es",
+    "src": "node_modules/jspdf/node_modules/dompurify/dist/purify.es.js",
+    "isDynamicEntry": true
+  },
+  "public/Frontend/Fonts/Lalezar/Lalezar-Regular.ttf": {
+    "file": "assets/Lalezar-Regular-CNJcvoP0.ttf",
+    "src": "public/Frontend/Fonts/Lalezar/Lalezar-Regular.ttf"
+  },
+  "resources/React/App.jsx": {
+    "file": "assets/App-DVRycDE1.js",
+    "name": "App",
+    "src": "resources/React/App.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/jspdf/node_modules/dompurify/dist/purify.es.js",
+      "node_modules/canvg/lib/index.es.js"
+    ],
+    "css": [
+      "assets/App-Bs-Tdipp.css"
+    ],
+    "assets": [
+      "assets/Lalezar-Regular-CNJcvoP0.ttf"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+# Node modules
+/node_modules
+
+# Build files
+# /public/build
+/public/hot
+
+# Storage
+/public/storage
+/storage/*.key
+
+# Vendor directory
+/vendor
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# Composer
+auth.json
+
+# NPM and Yarn logs
+npm-debug.log
+yarn-error.log
+
+# IDE and editor folders
+/.fleet
+/.idea
+/.vscode
+
+# Misc
+/.DS_Store
+/storage/*
